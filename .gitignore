@@ -1,0 +1,15 @@
+__pycache__/
+*.egg-info/
+.venv/
+.DS_Store
+*.tar.gz
+*.db
+*.vcf
+*.vcf.gz
+*.chain
+*.chain.gz
+*.gtf
+*.gtf.gz
+*.bim
+*.bed
+*.fam

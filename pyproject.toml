@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snpkit"
+version = "0.1.0"
+description = "Fast local b37<->b38 liftover, annotation and LD-proxy lookup"
+requires-python = ">=3.9"
+dependencies = ["pandas>=2.0", "numpy", "pyliftover>=0.4.1"]
+
+[project.scripts]
+snpkit = "snpkit.cli:main"
+
+[tool.setuptools]
+packages = ["snpkit"]
